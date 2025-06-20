@@ -116,3 +116,17 @@ Input sanitization and validation to prevent SQL injection and other injection a
 
 ### HTTPS
 All communications will be encrypted using TLS/SSL. Protects data in transit from eavesdropping and man-in-the-middle attacks.
+
+
+## CI/CD Pipeline
+
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of testing and deploying code changes, ensuring fast and reliable updates to the application.
+
+### Key Components:
+1. **GitHub Actions**: Automatically run tests on every push to the repository
+2. **Docker**: Containerize the application for consistent environments
+3. **Automated Testing**: Unit tests, integration tests, and security scans
+4. **Staging Environment**: Test changes before production deployment
+5. **Production Deployment**: Automated deployment after successful testing
+
+This pipeline reduces human error, speeds up development cycles, and ensures code quality throughout the project lifecycle.
